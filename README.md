@@ -1,16 +1,53 @@
-# lonely-dark README
 
-## Working with Markdown
+# Lonely Dark Themes
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+## [GitHub Repo](https://github.com/zikrymiftahur/lonely-dark-vscode) 
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Inspired by One Dark Pro Themes
 
-**Enjoy!**
+But this background is darker, and there is a slight color change
+
+## Screenshots
+
+![App Screenshot](https://cdn.jsdelivr.net/gh/zikrymiftahur/lonely-dark-vscode/screenshots/screenshot-1.png)
+
+![App Screenshot](https://cdn.jsdelivr.net/gh/zikrymiftahur/lonely-dark-vscode/screenshots/screenshots-2.png)
+
+
+### Tweaks & theming
+
+If you want to play around with new colors, use the setting
+`workbench.colorCustomizations` to customize the currently selected theme. For
+example, you can add this snippet in your "settings.json" file:
+
+```json
+"workbench.colorCustomizations": {
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "sideBar.background": "#282c34",
+  "tab.activeBorder": "#d19a66",
+}
+```
+
+or use the setting `editor.tokenColorCustomizations`
+
+```json
+"editor.tokenColorCustomizations": {
+  "[One Dark Pro]": {
+    "textMateRules": [
+      {
+        "scope": ["source.python"],
+        "settings": {
+          "foreground": "#e06c75"
+        }
+      }
+    ]
+  }
+}
+```
+## Feedback
+
+If you have any feedback, please reach out to us at iki.miftahur@gmail.com
+
